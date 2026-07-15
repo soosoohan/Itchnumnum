@@ -576,6 +576,7 @@ document.getElementById('ranking-btn').addEventListener('click', function() {
   loadRanking();
   area.style.display = 'block';
   this.textContent = '🏆 Close Leaderboard';
+  area.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 });
 </script>
 </body>
